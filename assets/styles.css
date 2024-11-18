@@ -1,6 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 nav {
     position: relative;
     display: flex;
     justify-content: right;
     background-color: gray;
+}
+
+.about {
+    position: relative;
+    display: grid;
+    background-color: lightgray;
+}
+
+
+#professional-pic {
+    float: left;
+    width: 400px;
 }
