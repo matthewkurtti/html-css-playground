@@ -31,3 +31,8 @@ nav li{
     width: 200px;
     padding: 20px;
 }
+
+.Projects {
+    background-color: lightskyblue;
+    display: grid;
+}
