@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
 nav {
     position: relative;
     display: flex;
@@ -10,14 +15,19 @@ nav {
     background-color: gray;
 }
 
+nav li{
+    display: inline;
+    margin-right: 10px;
+}
+
 .about {
-    position: relative;
-    display: grid;
     background-color: lightgray;
 }
 
 
 #professional-pic {
     float: left;
-    width: 400px;
+    float: top;
+    width: 200px;
+    padding: 20px;
 }
