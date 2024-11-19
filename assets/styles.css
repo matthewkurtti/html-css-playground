@@ -29,8 +29,21 @@ nav ul li {
   margin: 0 10px;
 }
 
+.header {
+  position: relative;
+  text-align: center;
+}
+
 #header-background {
   opacity: 0.2;
+  width: 100%;
+  height: auto;
+}
+
+.header-txt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
 .about {
