@@ -10,25 +10,38 @@ body {
 
 nav {
   position: relative;
+  top: 0;
+  left: 0;
   display: flex;
   justify-content: right;
   background-color: gray;
+  padding: 10px;
 }
 
-nav li {
+nav ul {
+  list-style: none;
+  margin: 0 auto;
+  text-align: center;
+}
+
+nav ul li {
   display: inline;
-  margin-right: 10px;
+  margin: 0 10px;
+}
+
+#header-background {
+  opacity: 0.2;
 }
 
 .about {
   background-color: lightgray;
+  text-align: center;
 }
 
 #professional-pic {
-  float: left;
-  float: top;
-  width: 200px;
-  padding: 20px;
+  max-width: 40%;
+  height: auto;
+  border-radius: 50%;
 }
 
 .Projects {
