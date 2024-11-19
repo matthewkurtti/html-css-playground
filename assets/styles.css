@@ -1,38 +1,41 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
 }
 
 nav {
-    position: relative;
-    display: flex;
-    justify-content: right;
-    background-color: gray;
+  position: relative;
+  display: flex;
+  justify-content: right;
+  background-color: gray;
 }
 
-nav li{
-    display: inline;
-    margin-right: 10px;
+nav li {
+  display: inline;
+  margin-right: 10px;
 }
 
 .about {
-    background-color: lightgray;
+  background-color: lightgray;
 }
 
-
 #professional-pic {
-    float: left;
-    float: top;
-    width: 200px;
-    padding: 20px;
+  float: left;
+  float: top;
+  width: 200px;
+  padding: 20px;
 }
 
 .Projects {
-    background-color: lightskyblue;
-    display: grid;
+  background-color: lightskyblue;
+  display: grid;
+}
+
+.project-item {
+  display: flexbox;
 }
