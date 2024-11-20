@@ -36,6 +36,7 @@ body {
 
 nav {
   position: sticky;
+  z-index: 1;
   top: 0;
   left: 0;
   display: flex;
@@ -65,7 +66,7 @@ nav a:hover {
 }
 
 #header-background {
-  opacity: 0.2;
+  opacity: 0.5;
   width: 100%;
   height: auto;
 }
@@ -83,6 +84,14 @@ nav a:hover {
 .about {
   background-color: var(--verylightbrown);
   text-align: center;
+}
+
+.about h1 {
+  padding: 50px;
+}
+
+.about p {
+  padding: 50px;
 }
 
 #professional-pic {
@@ -104,6 +113,7 @@ nav a:hover {
   background-color: var(--lightgray);
   display: flex;
   justify-content: center;
+  padding: 50px;
 }
 
 .single-project {
