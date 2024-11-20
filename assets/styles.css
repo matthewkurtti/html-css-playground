@@ -1,3 +1,24 @@
+/* Color palette: palette from mountain pic */
+
+/* 
+B0BFD2
+0E1218
+181F2A
+665938
+EDE8E1 */
+
+/* The gray color in professional pic: 2F2B2C */
+
+/* -------------Creating variables-------------------- */
+
+:root {
+  --lightgray: #b0bfd2;
+  --black: #0e1218;
+  --darkgray: #181f2a;
+  --brown: #665938;
+  --verylightbrown: #ede8e1;
+}
+
 /* ----------------General styles---------------------------- */
 
 * {
@@ -8,6 +29,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
+  background-color: var(--verylightbrown);
 }
 
 /* --------------------Nav Bar ------------------------------------ */
@@ -18,7 +40,7 @@ nav {
   left: 0;
   display: flex;
   justify-content: right;
-  background-color: gray;
+  background-color: var(--darkgray);
   padding: 10px;
 }
 
@@ -31,6 +53,14 @@ nav ul {
 nav ul li {
   display: inline;
   margin: 0 10px;
+}
+
+nav a {
+  color: var(--verylightbrown);
+}
+
+nav a:hover {
+  color: var(--brown);
 }
 
 /* --------------------Header----------------------------- */
@@ -48,19 +78,21 @@ nav ul li {
 
 .header-txt {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 45%;
+  left: 55%;
+  color: var(--black);
+  font-size: 60px;
 }
 
 /* -------------------------About me ------------------------------- */
 
 .about {
-  background-color: lightgray;
+  background-color: var(--verylightbrown);
   text-align: center;
 }
 
 #professional-pic {
-  max-width: 40%;
+  max-width: 20%;
   height: auto;
   border-radius: 50%;
 }
@@ -68,10 +100,19 @@ nav ul li {
 /* ------------------------Projects-------------------------------------- */
 
 .Projects {
-  background-color: lightskyblue;
-  display: grid;
+  background-color: var(--lightgray);
+  display: flex;
+  padding: 50px;
+  height: auto;
+}
+
+.project-h1 {
+  background-color: var(--lightgray);
+  display: flex;
+  justify-content: center;
 }
 
 .project-item {
   display: flexbox;
+  border: 1px solid black;
 }
