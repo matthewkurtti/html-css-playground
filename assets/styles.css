@@ -82,7 +82,6 @@ nav a:hover {
 /* -------------------------About me ------------------------------- */
 
 .about {
-  background-color: var(--verylightbrown);
   text-align: center;
 }
 
@@ -103,14 +102,12 @@ nav a:hover {
 /* ------------------------Projects-------------------------------------- */
 
 .Projects {
-  background-color: var(--lightgray);
   display: flex;
   padding: 50px;
   height: auto;
 }
 
 .project-h1 {
-  background-color: var(--lightgray);
   display: flex;
   justify-content: center;
   padding: 50px;
@@ -122,4 +119,20 @@ nav a:hover {
 
 .single-project:hover {
   color: var(--brown);
+}
+
+/* ------------------Contact------------------------ */
+
+.contact-h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact ul li {
+  display: inline;
 }
