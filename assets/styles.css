@@ -9,7 +9,7 @@ EDE8E1 */
 
 /* The gray color in professional pic: 2F2B2C */
 
-/* -------------Creating variables-------------------- */
+/* ---------------------------------------------------------Creating variables------------------------------------------------------ */
 
 :root {
   --lightgray: #b0bfd2;
@@ -19,7 +19,7 @@ EDE8E1 */
   --verylightbrown: #ede8e1;
 }
 
-/* ----------------General styles---------------------------- */
+/* ------------------------------------------------------------General styles------------------------------------------------------- */
 
 * {
   margin: 0;
@@ -32,7 +32,7 @@ body {
   background-color: var(--verylightbrown);
 }
 
-/* --------------------Nav Bar ------------------------------------ */
+/* ---------------------------------------------------Nav Bar ---------------------------------------------------------------------- */
 
 nav {
   position: sticky;
@@ -58,9 +58,10 @@ nav a:hover {
   color: var(--brown);
 }
 
-/* --------------------Header----------------------------- */
+/* ----------------------------------------------------------------------Header------------------------------------------------------------ */
 
 .header {
+  display: flex;
   position: relative;
   text-align: center;
 }
@@ -73,13 +74,13 @@ nav a:hover {
 
 .header-txt {
   position: absolute;
-  top: 45%;
+  top: 25%;
   left: 55%;
   color: var(--black);
   font-size: 60px;
 }
 
-/* -------------------------About me ------------------------------- */
+/* ----------------------------------------------------------------------About me ------------------------------------------------------------------------------ */
 
 .about {
   text-align: center;
@@ -99,13 +100,7 @@ nav a:hover {
   border-radius: 50%;
 }
 
-/* ------------------------Projects-------------------------------------- */
-
-.Projects {
-  display: flex;
-  padding: 50px;
-  height: auto;
-}
+/* ---------------------------------------------------------------Projects---------------------------------------------------------------------- */
 
 .project-h1 {
   display: flex;
@@ -113,15 +108,33 @@ nav a:hover {
   padding: 50px;
 }
 
-.single-project {
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 50px;
+  height: auto;
+}
+
+.project {
+  font-size: x-;
+  text-align: center;
+  margin: 5px;
+  padding: 50px;
+  border: solid black;
+  flex-basis: 30%;
+}
+
+/* .single-project {
   color: var(--black);
 }
 
 .single-project:hover {
   color: var(--brown);
-}
+} */
 
-/* ------------------Contact------------------------ */
+/* --------------------------------------------------------------------Contact--------------------------------------------------------------------------- */
 
 .contact-h1 {
   display: flex;
