@@ -61,9 +61,7 @@ nav a:hover {
 /* ----------------------------------------------------------------------Header------------------------------------------------------------ */
 
 .header {
-  display: flex;
   position: relative;
-  text-align: center;
 }
 
 #header-background {
@@ -75,7 +73,7 @@ nav a:hover {
 .header-txt {
   position: absolute;
   top: 25%;
-  left: 55%;
+  left: 45%;
   color: var(--black);
   font-size: 60px;
 }
